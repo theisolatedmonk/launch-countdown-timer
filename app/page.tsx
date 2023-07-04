@@ -13,8 +13,8 @@ export default function Home() {
         <Image src={bgStars} alt={""} />
         <Image src={bgHill} alt={""} />
       </div>
-      <div className="absolute w-full h-full bg-white opacity-20 justify-center items-center z-10">
-        <div className="flex flex-col gap-2 justify-center items-cente w-full h-full">
+      <div className="absolute w-full h-full bg-white opacity-20 justify-center items-center ">
+        <div className="flex flex-col gap-10 justify-center items-cente w-full h-full">
           <p className=" text-white text-center bg-green-500">WE'RE LAUNCHING SOON</p>
           <div
             className="flex justify-center
@@ -27,7 +27,7 @@ export default function Home() {
                   
           </div>
           <div className="flex  h-10 items-center justify-center gap-2   ">
-        <Image src={facebook} alt={''}/>
+        <Image src={facebook} alt={''} className="w-3 h-3"/>
         <Image src={instagram} alt={''}/>
         <Image src={pinterest} alt={''}/>
       </div>
