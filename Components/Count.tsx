@@ -12,7 +12,7 @@ export default function Count(props: CountType) {
       <div className=" top-20 text-3xl left-28 z-10 font-bold">
         {props.count} 
       </div>
-      <div className="text-sm text-red-900 bg-yellow-100 w-full h-full">{props.timeFormat }</div>
+      <div className="text-sm text-red-900 bg-yellow-100 w-full h-full text-center">{props.timeFormat }</div>
 
 
       </div>
