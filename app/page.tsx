@@ -24,12 +24,12 @@ export default function Home() {
             <Count count={"3"} timeFormat={"HOURS"} />
             <Count count={"2"} timeFormat={"MINUTES"} />
             <Count count={"1"} timeFormat={"SECONDS"} />
-                  
+
           </div>
           <div className="flex  h-10 items-center justify-center gap-2   ">
         <Image src={facebook} alt={''} className="w-3 h-3"/>
-        <Image src={instagram} alt={''}/>
-        <Image src={pinterest} alt={''}/>
+        <Image src={instagram} alt={''} className="w-3 h-3"/>
+        <Image src={pinterest} alt={''} className="w-3 h-3"/>
       </div>
         </div>
       </div>
